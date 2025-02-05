@@ -72,3 +72,4 @@ function addEvents(){
       alert('Hey, you clicked me!');
   });
 }
+window.onload = initialize();
