@@ -1,4 +1,4 @@
-/ City population data array
+// City population data array
 var cityPop = [
   {
       city: 'Madison',
