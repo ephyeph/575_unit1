@@ -1,3 +1,10 @@
+/**
+ * Initializes the application by calling the cities function.
+ */
+function initialize() {
+    cities();
+}
+
 // City population data array
 var cityPop = [
   {
@@ -72,4 +79,5 @@ function addEvents(){
       alert('Hey, you clicked me!');
   });
 }
-window.onload = initialize();
+
+window.onload = initialize(); //this needs to be a function that covers your whole code.  We use this to make sure the JS loads fully before running.  Look at the comments above. 
